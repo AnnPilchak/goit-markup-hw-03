@@ -1,3 +1,12 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
 p,
 h1,
 h2,
@@ -26,6 +35,9 @@ body {
     font-family: 'Roboto', sans-serif;
     color: #212121;
 }
+.section {
+    padding: 94px 0;
+}
 .list {
     list-style: none;
  }
@@ -37,7 +49,6 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
-    outline: 2px solid red;
  }
 
  /* HEADER */
@@ -104,8 +115,6 @@ body {
     background-color: #2F303A;
 }
 .cap_content {
-    padding-top: 200px;
-    padding-bottom: 200px;
     justify-content: center;
     align-items: center;
 }
@@ -166,8 +175,6 @@ body {
 .features_list {
     display: flex;
     gap: 30px;
-    padding-top: 89px;
-    padding-bottom: 94px;
 }
 
 /* ABOUT */
@@ -183,7 +190,6 @@ body {
 .about_list{
     display: flex;
     gap: 30px;
-    padding-bottom: 94px;
 }
 .about_item {
     width: calc((100% - 60px) / 3);
@@ -200,7 +206,6 @@ body {
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    padding-top: 94px;
     padding-bottom: 50px;
 }
 .team_name {
@@ -222,7 +227,6 @@ body {
 .team_list {
     display: flex;
     gap: 30px;
-    padding-bottom: 94px;
 }
 .team_item {
     background: #FFFFFF;
@@ -235,7 +239,7 @@ body {
 /* FOOTER */
 .footer {
     background-color: #2F303A;
-    padding: auto;
+    padding: 60px 0;
 }
 .footer_logo{
     font-weight: 700;
@@ -243,7 +247,7 @@ body {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: #FFFFFF;
-    padding-top: 60px;
+    margin-bottom: 5px;
 }
 .location_link {
     font-style: normal;
@@ -270,8 +274,6 @@ body {
 }
 .contacts_list {
     display: flex;
-    margin-top: 20px;
-    margin-bottom: 60px;
     flex-direction: column;
 }
 .contacts_item {
@@ -307,7 +309,6 @@ body {
     flex-direction: row;
     justify-content: center;
     padding-top: 94px;
-    padding-bottom: 50px;
 }
 /* PROJECTS */
 
